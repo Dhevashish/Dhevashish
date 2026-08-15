@@ -1,5 +1,9 @@
 /* Live-site polish + reliable motion */
 (() => {
+  // Make the navigation language match the story of the site.
+  const mindLink = document.querySelector('.nav nav a[href="#mind"]');
+  if (mindLink) mindLink.textContent = 'Curious';
+
   // Replace the closing CTA with a non-clickable contact label.
   const closingAction = document.querySelector('.closing .button-main');
   if (closingAction) {
