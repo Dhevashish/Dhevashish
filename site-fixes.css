@@ -1,88 +1,14 @@
 /* Visual polish pass requested after live-site review */
-.nav nav a,
-.nav-contact{
-  font-size:11px !important;
-}
-.nav nav{
-  gap:34px;
-}
-.nav-contact{
-  padding:13px 17px !important;
-  color:#c2ccd0 !important;
-  background:rgba(255,255,255,.018);
-}
-.chapter-tag,
-.small-label,
-.eyebrow{
-  font-size:11px !important;
-  color:#9aa9ae !important;
-}
-
-/* Make the oversized WHY / FIRST. typography intentionally visible. */
-.manifesto-bg-word.word-one{
-  opacity:1 !important;
-  -webkit-text-stroke:2px rgba(236,243,244,.19) !important;
-  text-shadow:0 0 35px rgba(185,239,255,.045);
-}
-.manifesto-bg-word.word-two{
-  opacity:1 !important;
-  color:rgba(221,255,112,.24) !important;
-  text-shadow:0 0 45px rgba(221,255,112,.06);
-}
-.manifesto-inner{
-  background:rgba(9,14,17,.72) !important;
-  border-color:rgba(230,240,245,.12) !important;
-}
-.manifesto-quote{
-  text-shadow:0 10px 34px rgba(0,0,0,.55) !important;
-}
-
-/* Remove the small 'curiosity / in orbit' label from the constellation. */
-.board-center{
-  display:none !important;
-}
-
-/* Make academic percentage figures easier to read. */
-.result-pill small{
-  font-size:13px !important;
-  font-weight:500;
-  color:#aebbc0 !important;
-}
-.edu-result>div:last-child>p:last-child{
-  font-size:12px !important;
-  color:#aebbc0 !important;
-  letter-spacing:.05em !important;
-}
-
-/* Make the football scene feel alive even without relying on SVG transform animation. */
-.field-shell{
-  animation:fieldDrift 7s ease-in-out infinite !important;
-  transform-origin:50% 50%;
-}
-@keyframes fieldDrift{
-  0%,100%{transform:rotate(-2deg) translate3d(0,0,0)}
-  50%{transform:rotate(-1deg) translate3d(0,-7px,0)}
-}
-.field-caption{
-  font-size:10px !important;
-  color:#e1eee4 !important;
-  text-shadow:0 2px 10px rgba(0,0,0,.55);
-}
-
-/* Final contact should look like information, not a dead link/button. */
-.closing-contact{
-  cursor:default !important;
-  user-select:text;
-  pointer-events:none;
-  display:inline-block;
-  min-width:220px;
-  text-align:center;
-}
-
-@media(max-width:600px){
-  .nav nav a,.nav-contact{font-size:10px !important}
-  .nav nav{gap:20px}
-  .manifesto-bg-word.word-one{ -webkit-text-stroke-width:1.5px !important; }
-  .result-pill small{font-size:12px !important}
-  .edu-result>div:last-child>p:last-child{font-size:11px !important}
-}
+.nav nav a,.nav-contact{font-size:11px !important}.nav nav{gap:34px}.nav-contact{padding:13px 17px !important;color:#c2ccd0 !important;background:rgba(255,255,255,.018)}
+.chapter-tag,.small-label,.eyebrow{font-size:11px !important;color:#9aa9ae !important}
+.manifesto-bg-word.word-one{opacity:1 !important;-webkit-text-stroke:2px rgba(236,243,244,.19) !important;text-shadow:0 0 35px rgba(185,239,255,.045)}
+.manifesto-bg-word.word-two{opacity:1 !important;color:rgba(221,255,112,.24) !important;text-shadow:0 0 45px rgba(221,255,112,.06)}
+.manifesto-inner{background:rgba(9,14,17,.72) !important;border-color:rgba(230,240,245,.12) !important}.manifesto-quote{text-shadow:0 10px 34px rgba(0,0,0,.55) !important}
+.board-center{display:none !important}
+.result-pill small{font-size:13px !important;font-weight:500;color:#aebbc0 !important}.edu-result>div:last-child>p:last-child{font-size:12px !important;color:#aebbc0 !important;letter-spacing:.05em !important}
+.field-shell{animation:fieldDrift 7s ease-in-out infinite !important;transform-origin:50% 50%}@keyframes fieldDrift{0%,100%{transform:rotate(-2deg) translate3d(0,0,0)}50%{transform:rotate(-1deg) translate3d(0,-7px,0)}}
+.field-caption{font-size:10px !important;color:#e1eee4 !important;text-shadow:0 2px 10px rgba(0,0,0,.55)}
+.closing-contact{cursor:default !important;user-select:text;pointer-events:none;display:inline-block;min-width:220px;text-align:center}
+/* Disable the fragile CSS marquee; site-fixes.js drives a precise looping translate. */
+.ticker-track{animation:none !important;will-change:transform}
+@media(max-width:600px){.nav nav a,.nav-contact{font-size:10px !important}.nav nav{gap:20px}.manifesto-bg-word.word-one{-webkit-text-stroke-width:1.5px !important}.result-pill small{font-size:12px !important}.edu-result>div:last-child>p:last-child{font-size:11px !important}}
