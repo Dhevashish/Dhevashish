@@ -21,3 +21,5 @@ The site is built around a simple idea: understand the intuition behind somethin
 ## Tech
 
 HTML · CSS · JavaScript
+
+_Last deployment refresh: 18._
