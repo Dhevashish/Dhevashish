@@ -11,4 +11,5 @@
 .closing-contact{cursor:default !important;user-select:text;pointer-events:none;display:inline-block;min-width:220px;text-align:center}
 /* Disable the fragile CSS marquee; site-fixes.js drives a precise looping translate. */
 .ticker-track{animation:none !important;will-change:transform}
+.nav-contact{text-transform:none !important}
 @media(max-width:600px){.nav nav a,.nav-contact{font-size:10px !important}.nav nav{gap:20px}.manifesto-bg-word.word-one{-webkit-text-stroke-width:1.5px !important}.result-pill small{font-size:12px !important}.edu-result>div:last-child>p:last-child{font-size:11px !important}}
