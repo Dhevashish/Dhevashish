@@ -34,14 +34,16 @@ jobs:
           index = (root / 'index.html').read_text(encoding='utf-8')
           css = (root / 'style.css').read_text(encoding='utf-8')
           js = (root / 'script.js').read_text(encoding='utf-8')
+          fixes_css = (root / 'site-fixes.css').read_text(encoding='utf-8')
+          fixes_js = (root / 'site-fixes.js').read_text(encoding='utf-8')
 
           index = index.replace(
               '<link rel="stylesheet" href="style.css">',
-              '<style>\n' + css + '\n</style>'
+              '<style>\n' + css + '\n' + fixes_css + '\n</style>'
           )
           index = index.replace(
               '<script src="script.js"></script>',
-              '<script>\n' + js + '\n</script>'
+              '<script>\n' + js + '\n' + fixes_js + '\n</script>'
           )
 
           dist = root / 'dist'
