@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dhevashish Saravanan — Computer Science student at VIT Chennai, learning through intuition, building with code, and exploring physics, AI and space technology." />
+  <title>Dhevashish Saravanan — A mind in progress</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+  <div class="progress"></div>
+
+  <header class="nav">
+    <a class="logo" href="#top">D<span>.</span></a>
+    <nav>
+      <a href="#story">Story</a>
+      <a href="#work">Build</a>
+      <a href="#mind">Mind</a>
+      <a href="#now">Now</a>
+    </nav>
+    <a class="nav-contact" href="mailto:dheva608@gmail.com">dheva608@gmail.com <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">VIT CHENNAI · COMPUTER SCIENCE</p>
+        <h1 class="hero-title">
+          <span>I don't just</span>
+          <span class="accent-word">learn</span>
+          <span>things.</span>
+        </h1>
+        <p class="hero-sub reveal delay-1">I want to understand <em>why</em> they work.</p>
+        <p class="hero-lede reveal delay-2">
+          I'm Dhevashish Saravanan — a Computer Science student who likes finding the intuition
+          underneath a concept, then turning that understanding into something I can build.
+        </p>
+        <div class="hero-cta reveal delay-3">
+          <a class="button button-main" href="#story">Start the story ↓</a>
+          <a class="button button-quiet" href="#now">What I'm doing now</a>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="star-field"></div>
+        <svg class="hero-orbit-system" viewBox="0 0 620 620" aria-hidden="true">
+          <defs>
+            <radialGradient id="planetGlow" cx="35%" cy="30%">
+              <stop offset="0%" stop-color="#f5fbff"/>
+              <stop offset="35%" stop-color="#9fb9d4"/>
+              <stop offset="72%" stop-color="#4f687f"/>
+              <stop offset="100%" stop-color="#1e2e3c"/>
+            </radialGradient>
+            <filter id="softGlow"><feGaussianBlur stdDeviation="12"/></filter>
+          </defs>
+          <circle cx="310" cy="310" r="178" fill="none" stroke="rgba(185,239,255,.12)" stroke-width="1"/>
+          <ellipse cx="310" cy="310" rx="224" ry="96" fill="none" stroke="rgba(221,255,112,.33)" stroke-width="1.4" transform="rotate(-18 310 310)"/>
+          <ellipse cx="310" cy="310" rx="236" ry="118" fill="none" stroke="rgba(185,239,255,.18)" stroke-width="1" transform="rotate(38 310 310)"/>
+          <ellipse cx="310" cy="310" rx="198" ry="78" fill="none" stroke="rgba(145,175,255,.17)" stroke-width="1" transform="rotate(82 310 310)"/>
+          <circle cx="310" cy="310" r="94" fill="rgba(143,190,255,.07)" filter="url(#softGlow)"/>
+          <circle cx="310" cy="310" r="78" fill="url(#planetGlow)" stroke="rgba(221,255,112,.28)" stroke-width="1"/>
+          <path d="M255 313 C285 291 330 290 366 306" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="2"/>
+          <path d="M262 343 C296 326 342 326 357 342" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="2"/>
+          <circle class="orbit-particle particle-1" cx="520" cy="245" r="5" fill="#b9efff"/>
+          <circle class="orbit-particle particle-2" cx="135" cy="438" r="5" fill="#ddff70"/>
+          <circle class="orbit-particle particle-3" cx="475" cy="470" r="4" fill="#91afff"/>
+        </svg>
+        <div class="hero-label label-1">ASK</div>
+        <div class="hero-label label-2">UNDERSTAND</div>
+        <div class="hero-label label-3">BUILD</div>
+        <div class="hero-orbit-caption">COMPUTE × PHYSICS</div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>CURIOUS BY DEFAULT</span><b>✦</b><span>INTUITION FIRST</span><b>✦</b>
+        <span>COMPUTER SCIENCE</span><b>✦</b><span>PHYSICS</span><b>✦</b>
+        <span>SPACE</span><b>✦</b><span>AI</span><b>✦</b>
+        <span>CURIOUS BY DEFAULT</span><b>✦</b><span>INTUITION FIRST</span><b>✦</b>
+      </div>
+    </div>
+
+    <section id="story" class="chapter chapter-story">
+      <div class="chapter-tag">01 · THE STARTING POINT</div>
+      <div class="story-grid">
+        <div class="story-heading">
+          <p class="small-label">HOW I TEND TO LEARN</p>
+          <h2>Give me the<br><em>“why”</em> first.</h2>
+        </div>
+        <div class="story-copy">
+          <p class="big-quote">“I usually don't feel like I understand something until I can explain the idea to myself without the textbook.”</p>
+          <p>I naturally look for the picture behind a concept. What problem was it trying to solve? What changes if I remove one assumption? What would this look like in a real system?</p>
+          <p>Once that mental model clicks, the formal stuff becomes much easier to remember. Equations stop feeling like symbols, and code stops feeling like syntax.</p>
+        </div>
+      </div>
+
+      <div class="learning-path">
+        <div class="path-line"></div>
+        <article class="path-step step-1"><span>01</span><div class="step-icon">?</div><h3>ASK</h3><p>What is this actually trying to solve?</p></article>
+        <article class="path-step step-2"><span>02</span><div class="step-icon">◎</div><h3>PICTURE</h3><p>Can I make the idea intuitive enough to see it?</p></article>
+        <article class="path-step step-3"><span>03</span><div class="step-icon">&lt;/&gt;</div><h3>BUILD</h3><p>Can I turn that understanding into something testable?</p></article>
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <div class="manifesto-bg-word word-one">WHY</div>
+      <div class="manifesto-bg-word word-two">FIRST.</div>
+      <div class="manifesto-inner">
+        <p class="small-label">A SMALL THING I BELIEVE</p>
+        <p class="manifesto-quote">Understanding is more satisfying when the idea makes sense before the notation does.</p>
+      </div>
+    </section>
+
+    <section id="work" class="chapter chapter-build">
+      <div class="chapter-tag">02 · THINGS I'VE MADE / DONE</div>
+      <div class="chapter-intro">
+        <div><p class="small-label">FROM IDEAS TO SOMETHING REAL</p><h2>Understanding<br><em>isn't the finish line.</em></h2></div>
+        <p class="intro-note">I like the point where a concept stops being something I'm studying and becomes something I can actually use.</p>
+      </div>
+
+      <div class="build-stack">
+        <article class="build-item build-code">
+          <div class="build-number">01</div>
+          <div class="build-visual code-visual">
+            <div class="mini-window"><span></span><span></span><span></span><div class="code-lines"><i></i><i></i><i></i><i></i><i></i></div></div>
+            <div class="float-tag">p5.js</div>
+          </div>
+          <div class="build-text">
+            <p class="small-label">PROGRAMMING</p>
+            <h3>Building with code.</h3>
+            <p>I've worked with Python and JavaScript and created projects using p5.js. I enjoy learning by making something small, seeing what breaks, and figuring out why it behaves the way it does.</p>
+            <div class="tags"><span>Python</span><span>JavaScript</span><span>p5.js</span></div>
+          </div>
+        </article>
+
+        <article class="build-item build-facilio">
+          <div class="build-number">02</div>
+          <div class="build-visual facilio-visual">
+            <div class="facilio-brand">Facilio<span>®</span></div>
+            <div class="facilio-sub">ENERGY MANAGEMENT</div>
+            <div class="facilio-rule"></div>
+            <div class="facilio-data">
+              <div><b>FACILIO</b><span>INTERNSHIP</span></div>
+              <div><b>ENERGY</b><span>MANAGEMENT</span></div>
+              <div><b>3RD</b><span>PLACE</span></div>
+            </div>
+            <div class="facilio-wave"><svg viewBox="0 0 600 150" preserveAspectRatio="none" aria-hidden="true"><path d="M0 112 C65 106 62 62 126 70 S183 124 240 91 S294 31 356 63 S414 112 470 77 S534 32 600 46" fill="none" stroke="rgba(221,255,112,.74)" stroke-width="3"/><path d="M0 122 C65 116 62 80 126 88 S183 135 240 105 S294 51 356 76 S414 124 470 92 S534 50 600 60" fill="none" stroke="rgba(185,239,255,.14)" stroke-width="1"/></svg></div>
+            <div class="float-tag">FACILIO INTERNSHIP · 3RD PLACE</div>
+          </div>
+          <div class="build-text">
+            <p class="small-label">FACILIO · INTERNSHIP</p>
+            <h3>Energy, made understandable.</h3>
+            <p>During my internship at Facilio, our team worked on an energy-management project for a school. We created a dashboard to help the school monitor and understand its energy usage, turning data into something practical and easier to act on. I finished third in the internship programme.</p>
+            <div class="tags"><span>Energy management</span><span>Dashboard</span><span>3rd place</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="mind" class="chapter chapter-mind">
+      <div class="chapter-tag">03 · THE THINGS THAT PULL ME IN</div>
+      <div class="mind-layout">
+        <div class="mind-heading"><p class="small-label">THINGS I KEEP COMING BACK TO</p><h2>There are a few<br>rabbit holes I<br><em>keep choosing.</em></h2><p>I like subjects that don't give everything away immediately — the ones that make me stop, build a mental model, and ask another question.</p></div>
+        <div class="constellation-board constellation-canvas">
+          <div class="constellation-line line-a"></div><div class="constellation-line line-b"></div><div class="constellation-line line-c"></div>
+          <button class="mind-node node-q" data-label="Quantum Computing">QUANTUM</button>
+          <button class="mind-node node-ai" data-label="Artificial Intelligence">AI</button>
+          <button class="mind-node node-cyber" data-label="Cybersecurity">CYBER</button>
+          <button class="mind-node node-phys" data-label="Physics & the Cosmos">PHYSICS</button>
+          <button class="mind-node node-space" data-label="Space Technology">SPACE</button>
+          <button class="mind-node node-data" data-label="Algorithms & Data">DATA</button>
+          <div class="board-center">curiosity<br><span>in orbit</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="chapter chapter-education">
+      <div class="chapter-tag">04 · THE FOUNDATION</div>
+      <div class="edu-story">
+        <div class="edu-heading"><p class="small-label">WHERE I'M AT NOW</p><h2>VIT<br><em>Chennai.</em></h2><p>Computer Science · 2026 —</p></div>
+        <div class="edu-result"><div class="result-ring"><strong>93</strong><span>A*</span></div><div><p class="small-label">CAMBRIDGE A LEVEL</p><h3>Computer Science</h3><p>Percentage Uniform Mark · 93%</p></div></div>
+      </div>
+      <div class="results-line"><div class="result-pill"><b>A*</b><span>Chemistry</span><small>91%</small></div><div class="result-pill"><b>A*</b><span>Physics</span><small>90%</small></div><div class="result-pill"><b>A</b><span>Mathematics</span><small>82%</small></div></div>
+      <div class="school-note"><div><p class="small-label">BEFORE VIT</p><h3>HLC International School</h3></div><p>School was where academics and everything outside them coexisted — from science and computing to football and the ISSO Games.</p></div>
+    </section>
+
+    <section class="chapter chapter-football">
+      <div class="chapter-tag">05 · THE OTHER SIDE OF THE STORY</div>
+      <div class="football-scene">
+        <div class="football-copy"><p class="small-label">FOOTBALL / A DIFFERENT KIND OF THINKING</p><h2>Different field.<br><em>Same instinct.</em></h2><p>Football has been a big part of my school life. I played as a defender and had the opportunity to represent HLC International School at the ISSO Games.</p><p>It's a different kind of problem-solving: read what is happening, react quickly, trust the people around you, and make the next decision.</p></div>
+        <div class="football-art"><div class="field-shell"><svg class="football-field" viewBox="0 0 800 520" aria-hidden="true"><defs><linearGradient id="grass" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1c3a26"/><stop offset="100%" stop-color="#102217"/></linearGradient><pattern id="mow" width="70" height="520" patternUnits="userSpaceOnUse"><rect width="35" height="520" fill="rgba(255,255,255,.018)"/><rect x="35" width="35" height="520" fill="transparent"/></pattern></defs><rect x="18" y="18" width="764" height="484" rx="8" fill="url(#grass)" stroke="rgba(221,255,112,.38)" stroke-width="3"/><rect x="18" y="18" width="764" height="484" rx="8" fill="url(#mow)" opacity=".65"/><line x1="400" y1="18" x2="400" y2="502" stroke="rgba(221,255,112,.28)" stroke-width="2"/><circle cx="400" cy="260" r="78" fill="none" stroke="rgba(221,255,112,.30)" stroke-width="2"/><circle cx="400" cy="260" r="4.5" fill="rgba(221,255,112,.65)"/><rect x="18" y="156" width="110" height="208" fill="none" stroke="rgba(221,255,112,.22)" stroke-width="2"/><rect x="672" y="156" width="110" height="208" fill="none" stroke="rgba(221,255,112,.22)" stroke-width="2"/><rect x="18" y="205" width="52" height="110" fill="none" stroke="rgba(221,255,112,.16)" stroke-width="2"/><rect x="730" y="205" width="52" height="110" fill="none" stroke="rgba(221,255,112,.16)" stroke-width="2"/><text x="400" y="278" text-anchor="middle" fill="rgba(221,255,112,.10)" font-size="84" font-family="Inter, Arial" font-weight="800" letter-spacing="-5">ISSO</text><circle class="field-ball" cx="322" cy="226" r="13" fill="#f5f7f4" stroke="rgba(20,25,22,.45)" stroke-width="2"/><path d="M320 213 l6 7 -4 7 -8 -3 -4 -7 z" fill="#445148" opacity=".8"/></svg><span class="field-caption">READ · REACT · DECIDE</span></div></div>
+      </div>
+    </section>
+
+    <section id="now" class="chapter chapter-now">
+      <div class="chapter-tag">06 · RIGHT NOW</div>
+      <div class="now-intro"><div class="now-lead"><p class="small-label">CURRENTLY WORKING TOWARDS</p><h2>I'm not trying to<br><em>have it all figured out.</em></h2><p class="now-statement">I'm trying to become good enough to follow the questions that interest me.</p></div></div>
+      <div class="now-grid">
+        <article class="now-card"><span>01</span><div class="now-icon space-icon">✦</div><h3>Learning more about space</h3><p>Going deeper into space science, exploration and the technology behind it.</p></article>
+        <article class="now-card"><span>02</span><div class="now-icon">⌁</div><h3>Trying for an ISRO internship</h3><p>Working towards an opportunity to gain practical exposure in the Indian space ecosystem.</p></article>
+        <article class="now-card"><span>03</span><div class="now-icon">&lt;/&gt;</div><h3>Going deeper into AI</h3><p>Building a stronger understanding of artificial intelligence beyond the introductory level.</p></article>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-stars"></div>
+      <p class="small-label">SO, THAT'S ME — FOR NOW.</p>
+      <h2>Still learning.<br><em>Still building.</em></h2>
+      <p>Somewhere between Computer Science, physics, curiosity and a few too many questions.</p>
+      <a class="button button-main" href="mailto:dheva608@gmail.com">dheva608@gmail.com ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>Dhevashish Saravanan · 2026</span>
+    <button class="secret-trigger" type="button">made while figuring things out.</button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
