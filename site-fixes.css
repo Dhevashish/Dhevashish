@@ -37,6 +37,23 @@
   text-shadow:0 10px 34px rgba(0,0,0,.55) !important;
 }
 
+/* Remove the small 'curiosity / in orbit' label from the constellation. */
+.board-center{
+  display:none !important;
+}
+
+/* Make academic percentage figures easier to read. */
+.result-pill small{
+  font-size:13px !important;
+  font-weight:500;
+  color:#aebbc0 !important;
+}
+.edu-result>div:last-child>p:last-child{
+  font-size:12px !important;
+  color:#aebbc0 !important;
+  letter-spacing:.05em !important;
+}
+
 /* Make the football scene feel alive even without relying on SVG transform animation. */
 .field-shell{
   animation:fieldDrift 7s ease-in-out infinite !important;
@@ -66,4 +83,6 @@
   .nav nav a,.nav-contact{font-size:10px !important}
   .nav nav{gap:20px}
   .manifesto-bg-word.word-one{ -webkit-text-stroke-width:1.5px !important; }
+  .result-pill small{font-size:12px !important}
+  .edu-result>div:last-child>p:last-child{font-size:11px !important}
 }
